@@ -15,7 +15,14 @@ The properties you need to add to each element are:
 
 ### Self Check
 - Did you use all three methods of adding CSS to an HTML file?
+Yes, External, Internal, Inline.
 - Did you properly link the external CSS file in the HTML file?
+Yes, I created a styles.css file in the same directory, and <link> to it in the <head> section.
 - Does the `div` element have CSS added via the external method?
+Yes.
 - Does the `p` element have CSS added via the internal method?
+Yes.
 - Does the `button` element have CSS added via the inline method?
+Yes.
+
+Solutions checked and all correct!
