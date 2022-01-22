@@ -15,4 +15,8 @@ The properties you need to add are:
 
 ### Self Check
 - Do the elements that contain the text "This should be styled" have the correct styles applied?
+Yes, with descendant combinator used, just like chaining selectors, but with space for the ancester element.
 - Do the elements that contain the text "This should be unstyled" have no styles applied?
+Yes, because they do not have an ancester element with class "container".
+
+Checked with solutions. Correct.

@@ -1,0 +1,11 @@
+.avatar.proportioned {
+    width: 300px;
+    height: auto;
+}
+
+/* Chaining selectors by putting two classes altogether without space. */
+
+.avatar.distorted {
+    width: 200px;
+    height: 400px;
+}

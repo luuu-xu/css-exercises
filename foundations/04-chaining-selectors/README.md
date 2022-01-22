@@ -16,5 +16,11 @@ The properties you need to add to each element are:
 
 ### Self Check
 - Did you properly chain class selectors for each rule?
+Yes, chaining selectors by listing classes together without space.
 - Does the `proportioned` image retain its original square proportions?
+Yes. Used height: auto to remain its ratio.
 - Does the `distorted` image end up looking squished and, well, distorted?
+Yes, because I put both width and height px in.
+
+Checked with solutions. All correct!
+
