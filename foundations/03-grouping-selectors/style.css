@@ -1,0 +1,15 @@
+.first, 
+.second {
+    font-size: 28px;
+    font-family: 'Helvetica', 'Times New Roman', sans-serif;
+}
+/* This is a comment. */
+/* Grouping selectors by putting two classes together with same style. */
+.first {
+    color:white;
+    background-color: black;
+}
+
+.second {
+    background-color: yellow;
+}
