@@ -3,6 +3,11 @@
   border: 4px solid midnightblue;
   width: 400px;
   height: 300px;
+  display: flex;
+  justify-content: center;
+  /* adjust contents along main axis, in this case - row. */
+  align-items: center;
+  /* adjust across main axis, in this case - column. */
 }
 
 .box {
