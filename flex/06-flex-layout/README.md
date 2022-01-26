@@ -12,10 +12,21 @@ Flexbox is useful for laying out entire pages as well as the smaller components 
 ### Self Check
 
 - The header is at the top of the page, the footer is at the bottom, and they stay in place if you resize your screen.
+Yes, by setting body {display: flex; flex-direction: column; justify-content: space-between}
 - The header and footer have padding.
+Yes, by adding .header,.footer {padding: 16px}
 - The links in the header and footer are pushed to either side.
+Yes, by setting .header,.footer {display: flex; justify-content: space-between}
 - There is space between the links in the header and footer.
+Yes, by setting ul {display: flex; gap: 20px}
 - The footer has a light gray background (`#eeeeee`).
+Yes.
 - The logo, input and buttons are centered in the screen.
+Yes, by setting .content {align-self: center; display: flex; flex-direction: column; align-items: center}
 - The buttons have an appropriate amount of padding.
+Yes, by setting button {padding: .5em 1em}
 - There is space between the logo, input and buttons.
+Yes, by setting .content {gap: 8px}
+
+Checked with solutions. Correct.
+But I set body {justify-content: center} to make the content (logo, input, buttons) to be centered vertically, instead, it should set .content {justify-content: center}
